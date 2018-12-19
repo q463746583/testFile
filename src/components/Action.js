@@ -1,11 +1,8 @@
 import React from "react";
 
 const Action = props => (
-  <button
-    disabled={this.props.options.length === 0}
-    onClick={this.props.randomPick}
-  >
-    {" "}
+  <button disabled={props.options.length === 0} onClick={props.randomPick}>
+    {" Too Weird"}
     What should I do?{" "}
   </button>
 );
